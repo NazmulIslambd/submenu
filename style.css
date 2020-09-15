@@ -37,6 +37,12 @@ body{
 .menu_area ul ul li{
     display: block;
 }
-.menu_area ul li:hover ul{
+.menu_area ul li:hover > ul{
     display: block;
+}
+.menu_area ul ul ul{
+    
+    top: 0%;
+    right: 100%;
+    left: auto;
 }
